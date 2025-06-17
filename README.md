@@ -7,7 +7,7 @@ O objetivo principal deste projeto foi praticar os fundamentos de desenvolviment
 ## 🔧 Tecnologias Utilizadas
 - HTML5
 - CSS3
-JavaScript
+- JavaScript
 
 ## 📌 Funcionalidades
 - Apresentação pessoal (nome, descrição, contatos)
