@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfólio | Diogo Monteiro</title>
+</head>
+<body>
+    <header>
+        <ul>
+            <li>
+                <a>Home</a>
+            </li>
+                        <li>
+                <a>Projetos</a>
+            </li>
+                        <li>
+                <a>Sobre</a>
+            </li>
+                        <li>
+                <a>Contato</a>
+            </li>
+        </ul>
+    </header>
+
+    <section class="principal">
+        <div>
+            <h1>Olá, eu sou <span>Diogo Monteiro</span>.</h1>
+            <p>Desenvolvedor criativo focado em construir experiências digitais excepcionas e interfaces intuitivas </p>
+            <a class="botao efeito-cursor">Ver Projetos</a>    
+        </div>
+    </section>
+
+    <section class="secao">
+        <h2 class="titulo-secao">Projetos</h2>
+
+        <div class="grade-projetos">
+            <div class="card-projeto efeito-cursor">
+                <img class="img-projeto" src="./img/calculadora_online.png" alt="imagem-projeto">
+                <div class="info-projeto">
+                    <h3>Calculadora Online</h3>
+                    <p>EM BREVE</p>
+                    <a>Ver Projeto →</a>
+                </div>
+            </div>
+
+            <div class="card-projeto efeito-cursor">
+                <img class="img-projeto" src="./img/carros_ecommerce.jpeg" alt="imagem-projeto">
+                <div class="info-projeto">
+                    <h3>Carros E-commerce</h3>
+                    <p>EM BREVE</p>
+                    <a>Ver Projeto →</a>
+                </div>
+            </div>
+
+            <div class="card-projeto efeito-cursor">
+                <img class="img-projeto" src="./img/previsao_tempo.jpeg" alt="imagem-projeto">
+                <div class="info-projeto">
+                    <h3>Previsão do Tempo</h3>
+                    <p>EM BREVE</p>
+                    <a>Ver Projeto →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="secao">
+        <h2 class="titulo-secao">Sobre Mim</h2>
+        <div class="sobre">
+            <img class="img-sobre" src="./img/diogoDev_portfolio.png" alt="Sobre o autor">
+
+            <div class="conteudo-sobre">
+                <h2>Desenvolvedor com paixão por criar soluções digitais</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero necessitatibus minus quidem reiciendis deleniti adipisci ad? Doloremque obcaecati dignissimos suscipit minima optio quo, provident rem quasi temporibus cupiditate qui expedita.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus maiores aut hic ut tempore sunt illo quaerat beatae esse veritatis, ipsa cum nostrum quia amet velit qui inventore, alias maxime?</p>
+            
+                <div class="habilidades">
+                    <span class="tag-habilidades efeito-cursor">HTML5</span>
+                    <span class="tag-habilidades efeito-cursor">CSS</span>
+                    <span class="tag-habilidades efeito-cursor">JavScript</span>                   
+                    <span class="tag-habilidades efeito-cursor">UX/UI</span>
+                    <span class="tag-habilidades efeito-cursor">Python</span>
+                </div>
+            </div>
+        </div> 
+    </section>
+
+    <section class="secao">
+        <h2 class="titulo-secao">Contado</h2>
+        <div class="botoes-contato">
+            <a href="wa.link/581a7n" class="botao-contato whatsapp efeito-cursor">
+                  
+                <span>WhatsApp</span>
+            </a>
+                <a href="mailto:diogo2509@gmail.com" class="botao-contato email efeito-cursor">
+                  
+                <span>Email</span>
+            </a>
+                <a href="www.linkedin.com/in/diogo-monteiro-006773250" class="botao-contato linkedin efeito-cursor">
+                  
+                <span>LinkedIn</span>
+            </a>
+                <a href="https://github.com/diogo-csm" class="botao-contato github efeito-cursor">
+                  
+                <span>GitHub</span>
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        Diogo Monteiro
+    </footer>
+
+    <div class="cursor"></div>
+    
+</body>
+
+<script>
+    const cursor = document.querySelector('.cursor')
+
+    document.addEventListener('mousemove',function(info){
+        cursor.style.left = info.clientX + 'px'
+        cursor.style.top = info.clientY + 'px'
+    })
+</script>
+</html>
